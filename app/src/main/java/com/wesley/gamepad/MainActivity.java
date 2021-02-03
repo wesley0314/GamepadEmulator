@@ -1,4 +1,4 @@
-package com.pateo.wesley.gamepad;
+package com.wesley.gamepad;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -13,6 +13,8 @@ import android.util.Range;
 import android.view.MotionEvent;
 import android.widget.ImageButton;
 import android.widget.TextView;
+
+import com.pateo.wesley.gamepad.R;
 
 import io.github.controlwear.virtual.joystick.android.JoystickView;
 

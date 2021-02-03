@@ -15,7 +15,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.GamepadEmulator">
         <activity
-            android:name=".MainActivity"
+            android:name="com.wesley.gamepad.MainActivity"
             android:screenOrientation="landscape"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
             <intent-filter>

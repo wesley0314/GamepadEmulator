@@ -1,4 +1,4 @@
-package com.pateo.wesley.gamepad;
+package com.wesley.gamepad;
 
 public class HidUtils {
 
