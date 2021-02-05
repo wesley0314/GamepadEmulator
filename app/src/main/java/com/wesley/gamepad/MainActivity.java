@@ -112,10 +112,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void sendReport() {
-        if (!mBTManager.isConnected()) {
-            Log.d(TAG, "sendReport: not connected, return");
-            return;
-        }
         // get button state
         byte state = 0;
         for (int i = 0; i < 4; ++i) {

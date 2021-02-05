@@ -39,7 +39,7 @@ public class BTDeviceManager {
                     mConnectState = BluetoothProfile.STATE_DISCONNECTED;
                 }
                 BluetoothHidDeviceAppSdpSettings sdp = new BluetoothHidDeviceAppSdpSettings(HidConsts.NAME,
-                        HidConsts.DESCRIPTION, HidConsts.PROVIDER, BluetoothHidDevice.SUBCLASS2_JOYSTICK, HidConsts.DESCRIPTOR);
+                        HidConsts.DESCRIPTION, HidConsts.PROVIDER, BluetoothHidDevice.SUBCLASS2_UNCATEGORIZED, HidConsts.DESCRIPTOR);
                 HidDevice.registerApp(sdp, null, null, Executors.newCachedThreadPool(), mCallback);
             }
         }
